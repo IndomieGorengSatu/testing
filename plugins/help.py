@@ -5,7 +5,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 @Bot.on_message(filters.command("help") & filters.user(ADMINS))
-  async def _help(client, m: Message):
+async def _help(client, m: Message):
     await m.reply_text("""
 <b>❏ Perintah untuk Pengguna BOT
 ├ /start - Mulai Bot
