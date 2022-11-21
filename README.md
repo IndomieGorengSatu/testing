@@ -2,7 +2,7 @@
 
 Click the button below to deploy on Heroku!
 
-[![Deploy to heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/https://github.com/Ucbro/repo-4-buttons)
+[![Deploy to heroku](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/https://https://github.com/IndomieGorengSatu/testing)
 
 ## Deploy in your VPS
 ````bash
