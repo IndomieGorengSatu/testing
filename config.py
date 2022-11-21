@@ -20,6 +20,9 @@ API_HASH = os.environ.get("API_HASH", "")
 # ID Channel Database
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
+#Port
+PORT = os.environ.get("PORT", "8080")
+
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
 
