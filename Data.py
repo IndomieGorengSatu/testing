@@ -15,6 +15,7 @@ class Data:
  
  ❏ Perintah Untuk Admin BOT
  ├ /logs - Untuk melihat logs bot
+ ├ /vars - Untuk melihat variable bot
  ├ /setvar - Untuk mengatur var dengan command dibot
  ├ /delvar - Untuk menghapus var dengan command dibot
  ├ /getvar - Untuk melihat salah satu var dengan command dibot
@@ -23,7 +24,7 @@ class Data:
  ├ /speedtest - Untuk Mengetes kecepatan server bot
  └ /broadcast - Untuk mengirim pesan broadcast ke pengguna bot
 
-👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
+Managed by @IndomieProject</b>
 """
 
     close = [
@@ -39,19 +40,6 @@ class Data:
 
     buttons = [
         [
-            InlineKeyboardButton("ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ", callback_data="about"),
             InlineKeyboardButton("ᴛᴜᴛᴜᴘ", callback_data="close")
         ],
     ]
-
-    ABOUT = """
-<b>Tentang Bot ini:
-
-@{} adalah Bot Telegram untuk menyimpan Postingan atau File yang dapat Diakses melalui Link Khusus.
-
- • Creator: @{}
- • Framework: <a href='https://docs.pyrogram.org'>Pyrogram</a>
- • Source Code: <a href='https://github.com/mrismanaziz/File-Sharing-Man'>File-Sharing-Man v4</a>
-
-👨‍💻 Develoved by </b><a href='https://t.me/Lunatic0de/101'>@Lunatic0de</a>
-"""
