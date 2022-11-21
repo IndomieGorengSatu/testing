@@ -15,7 +15,7 @@ def start_button(client):
             ],
         ]
         return buttons
-    if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP, FORCE_SUB_CHANNEL2, FORCE_SUB_GROUP2:
+    if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP and not FORCE_SUB_CHANNEL2 and not FORCE_SUB_GROUP2:
         buttons = [
             [
                 InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
@@ -35,7 +35,7 @@ def start_button(client):
             ],
         ]
         return buttons
-    if FORCE_SUB_CHANNEL2 and not FORCE_SUB_CHANNEL, FORCE_SUB_GROUP, FORCE_SUB_GROUP2:
+    if FORCE_SUB_CHANNEL2 and not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP and not FORCE_SUB_GROUP2:
         buttons = [
             [
                 InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 2", url=client.invitelink3),
